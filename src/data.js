@@ -14,3 +14,4 @@ export const anotherExample = () => {
 
 //Wenooos diaas
 //Hay mucha info en este proyecto aaah 
+// Siii, tenemos que hacer mil cosas pero me alegra que por lo menos ya tengamos esto de la colaboracion
