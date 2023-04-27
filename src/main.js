@@ -1,31 +1,48 @@
-import data from './data/lol/lol.js';
+/* eslint-disable no-console */
 
-const contenedor = document.querySelector('.contenedor'); 
+import { sortBy, filtrar } from './data.js';
 
-const champion = Object.keys(data.data)
 
-for(let i = 0; i < champion.length; i++){
-  const key = champion[i]
-  
-  const name = data.data[key].name;
-  const img  = data.data[key].img
-  const championCard = document.createElement("div");
-  championCard.classList.add("champion-card"); 
+//ORGANIZACION A-Z y Z-A
 
-  const championImgContainer = document.createElement("div");
-  championImgContainer.classList.add("champion-img-container");
 
-  const championImg = document.createElement("img");
-  championImg.src = img;
-  championImg.alt = name;
 
-  // creación h2 para ingresar nombre
-  const championName = document.createElement("h2");
-  // toma el primer caracter del nombre para que sea en mayuscula y juntarlo con slice para devolver el resto de caracteres.
-  championName.textContent = name.charAt(0).toUpperCase() + name.slice(1);
+document.addEventListener('DOMContentLoaded', () => {
+  const selectSort = document.querySelector('.sort');
+  selectSort.addEventListener('change', () => {
+    const sortOrder = selectSort.value === '1' ? 'asc' : 'desc';
+    sortBy(sortOrder);
+  });
+});
 
-  championImgContainer.appendChild(championImg);
-  championCard.appendChild(championImgContainer)
-  championCard.appendChild(championName)
-  contenedor.appendChild(championCard)
-}
+
+//FILTRADO BUSQUEDA
+
+
+
+// eslint-disable-next-line no-undef
+botonBuscar.addEventListener("click", () => {
+  // eslint-disable-next-line no-undef
+  resultados.innerHTML = '';
+  filtrar()
+});
+
+// eslint-disable-next-line no-undef
+botonLimpiar.addEventListener("click", function () {
+  location.reload();
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  const btMenu = document.querySelector('.bt-menu');
+  const ul = document.querySelector('.contenido');
+
+  btMenu.addEventListener('click', () => {
+    ul.classList.toggle('contenido');
+    console.log('Hace click')
+  });
+});
+
+
+
+
+

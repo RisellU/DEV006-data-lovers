@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-      <img src="logo.png"/>
-      </div>
-      <nav class="header">
-        <ul>
-          <li><a href="#">PATCH NOTES </a></li>
+
+<head>
+  <meta charset="utf-8">
+  <title>Data Lovers</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="data.js" type="module"></script>
+  <script src="main.js" type="module"></script>
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+  <div id="root"></div>
+  <header>
+    <div class="contImg">
+      <img class="logo" src="logo.png" width="1510" height="280" margin="0" padding="0">
+    </div>
+    <div class="logIn-signUp">
+      <button class="logIn">LOG IN</button><button class="SignUp">SIGN UP</button>
+    </div>
+    <div class="menu_bar">
+      <a href="#" class="bt-menu">☰</a>
+    </div>
+    <nav class="header">
+      <div class="listaheader">
+        <ul class="contenido">
+          <li><a href="#">PATCH NOTES</a></li>
           <li><a href="#">CHAMPIONS</a></li>
           <li><a href="#">NEWS</a></li>
           <li><a href="#">GAME</a></li>
@@ -22,10 +35,34 @@
           <li><a href="#">UNIVERSE</a></li>
           <li><a href="#">MORE</a></li>
         </ul>
-      </nav>
-    </header>
-    <main> 
-      <div class="contenedor"></div>
-    </main>
-  </body>
+
+      </div>
+    </nav>
+    <select class="sort">
+      <option value="1" id="ascendente">Sort A-Z</option>
+      <option value="2" id="descendente">Sort Z-A</option>
+
+
+    </select>
+  </header>
+
+  <div>
+    <input type="text" id="buscar" placeholder="Champion name...">
+    <button id="botonBuscar">Search</button>
+    <button id="botonLimpiar">Clear</button>
+    <h3 style="list-style: none;" id="notFound"></h3>
+    <ul>
+      <li id="resultados"></li>
+    </ul>
+  </div>
+
+  <button id="calculo"><a class="textCalculo" href="calculo.html">Percentage of roles</a></button>
+
+  <div class="contenedor" id="contenedor"></div>
+  <main>
+    
+
+  </main>
+</body>
+
 </html>
