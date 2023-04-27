@@ -19,19 +19,19 @@ Criterios minimos de aceptación
 
 Historia #1: La primera historia de usuario tiene como publico objetivo las personas interesadas a comenzar a jugar LOL, y que deseen familiarizarse con los campeones y aprender a reconocerlos en pantalla. La visualizacion se realizará por medio de tarjetas que contengan el nombre, el titulo, la image, la descripción y características del campeón.
 
-  HU1="Yo como persona interesada en comenzar a jugar lol, quiero poder ver las imágenes nombres y blurbs de los personajes para aprender a reconocerlos en pantalla."
+    HU1="Yo como persona interesada en comenzar a jugar lol, quiero poder ver las imágenes nombres y blurbs de los personajes para aprender a reconocerlos en pantalla."
 
  Historia #2: Esta historia se enfoca en aquellas usuarias que ya son jugadoras de LOL y que quieran visualizar los personajes que ya conocen alfabéticamente, ya sea A-Z o Z-A.
 
-  HU2="Yo como jugadora quiero ordenar los campeones de abajo hacia arriba mediante un botón que me permita ordenarlos alfabéticamente para no tener que hacer scroll hasta el final."
+    HU2="Yo como jugadora quiero ordenar los campeones de abajo hacia arriba mediante un botón que me permita ordenarlos alfabéticamente para no tener que hacer scroll hasta el final."
 
 Historia #3: La historia numero 3, también se enfoca en una usuario que ya es jugadora. En este caso, la necesidad que tiene la usuaria es conocer las características especiales de un campeón específico, de manera que lo pueda buscar por su nombre en un recuadro de búsqueda.
 
-  HU3="Yo como jugadora de lol quiero poder buscar por nombre a los personajes para poder ver su nivel de defensa,ataque magia y dificultad y no tener que buscarlo manualmente."
+    HU3="Yo como jugadora de lol quiero poder buscar por nombre a los personajes para poder ver su nivel de defensa,ataque magia y dificultad y no tener que buscarlo manualmente."
     
 Historia #4: La última historia de usuario creada, tiene como publico objetivo una persona aficionada al juego y sus personajes. Esta persona desea conocer el porcentaje de campeones que cumplen cierto rol en el juego y así conocer más sobre el universo de LOL.
 
-  HU4="Yo como fan de lol quiero saber el porcentaje de campeones en cada rol para conocer las estadísticas de los roles."
+    HU4="Yo como fan de lol quiero saber el porcentaje de campeones en cada rol para conocer las estadísticas de los roles."
     
     
 
