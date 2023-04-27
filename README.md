@@ -31,7 +31,7 @@ Historia #3: La historia numero 3, también se enfoca en una usuario que ya es j
     
 Historia #4: La última historia de usuario creada, tiene como publico objetivo una persona aficionada al juego y sus personajes. Esta persona desea conocer el porcentaje de campeones que cumplen cierto rol en el juego y así conocer más sobre el universo de LOL.
 
-    HU4="Yo como fan de lol quiero saber el porcentaje de campeones en cada rol para conocer las estadísticas de los roles."
+     HU4="Yo como fan de lol quiero saber el porcentaje de campeones en cada rol para conocer las estadísticas de los roles."
     
     
 
